@@ -269,3 +269,23 @@ li {
     color: rgba(14, 20, 74, 0.6);
 
 }
+
+/* testimoni */
+
+.testimoni {
+    background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
+    height: 1035px;
+    margin: 0px 136px 0px 136px;
+}
+
+.title {
+    text-align: center;
+}
+
+.card-testimoni {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
