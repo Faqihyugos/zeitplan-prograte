@@ -49,7 +49,6 @@ body {
 .hero-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-right: 60px;
 }
 
@@ -70,6 +69,16 @@ body {
     font-size: 18px;
     line-height: 34px;
     width: 501px;
+}
+
+.hero-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-button a {
+    margin-left: 20px;
 }
 
 
@@ -179,6 +188,41 @@ li {
     color: #FFFFFF;
     font-size: 1em;
     line-height: 20px;
+}
+
+.btn-primary:hover {
+    background: #d63e27;
+}
+
+.btn-secondary {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    
+    text-decoration: none;
+
+    background: rgba(254, 94, 68, 0.1);
+    /* Pirmary Light */
+
+    border: 1px solid rgba(254, 94, 68, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: 'Source Sans Pro';
+    /* Primary */
+    color: #FE5E44;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.btn-secondary:hover {
+    background: #FE5E44;
+    color: #FFF0EE;
 }
 
 .note {
